@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>
+        <center>There are eleven different types of form elements</center>
+    </h2>
+    <br><br><br>
+    <form>
+        &nbsp;Button <button name="txtbut" id="but">Button</button> <br><br> Checkbox: <input type="checkbox" name="txtcheck" id="check" value="Student">Student
+        <input type="checkbox" name="txtcheck" id="check" value="Faculty">Faculty
+        <input type="checkbox" name="txtcheck" id="check" value="College">College
+        <br><br> File Upload <input type="file" name="txtfile" id="file">
+        <br><br> Hidden <br><br> Password &nbsp;<input type="password" name="txtpass" id="password">
+        <br><br> Radio <input type="radio" name="txtra" id="ra" value="Student">Student
+        <input type="radio" name="txtra" id="ra" value="Student">Faculty
+        <input type="radio" name="txtra" id="ra" value="Student">College
+        <br><br> Reset object <button name="txtbut_re" id="re">&nbsp;Reset</button>
+        <br><br> Select object&nbsp;
+        <Select>
+            <option value="login1">Login</option>
+            <option value="login2">Student</option>
+            <option value="login3">Faculty</option>          
+            <option value="login4">College</option>
+        </Select>
+        <br><br> Submit object <button>Submit Query</button>
+        <br><br> Text:
+        <input type="text" name="txtext" id="txt">
+        <br><br> Textarea
+        <textarea name="txtbio" id="bio" cols="30" rows="7"></textarea>
+
+
+
+    </form>
+
+
+
+</body>
+
+</html>
